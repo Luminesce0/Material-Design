@@ -1,5 +1,5 @@
 <resources>
-    <!-- detail -->
+    <!-- Detail Layout Dimensions -->
     <dimen name="detail_title_text_size">42sp</dimen>
     <dimen name="detail_body_text_size">20sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.3</item>
@@ -8,7 +8,7 @@
     <dimen name="fab_size">56dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
-    <!-- App Bar -->
+    <!-- App Bar Dimensions -->
     <dimen name="app_bar_height_total_prominent">128dp</dimen>
     <dimen name="app_bar_height_default">64dp</dimen>
     <dimen name="app_bar_height_prominent">64dp</dimen>

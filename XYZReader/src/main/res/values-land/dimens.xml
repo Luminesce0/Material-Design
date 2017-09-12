@@ -1,5 +1,5 @@
 <resources>
-    <!-- App Bar -->
+    <!-- App Bar Dimensions -->
     <dimen name="app_bar_height_total_prominent">92dp</dimen>
     <dimen name="app_bar_height_default">48dp</dimen>
     <dimen name="app_bar_height_prominent">48dp</dimen>
