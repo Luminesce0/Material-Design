@@ -12,9 +12,8 @@ import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import android.support.v7.widget.*;
+import android.support.v7.widget.DividerItemDecoration;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.util.Log;
@@ -136,9 +135,13 @@ public class ArticleListActivity extends ActionBarActivity implements
         adapter.setHasStableIds(true);
         mRecyclerView.setAdapter(adapter);
         int columnCount = getResources().getInteger(R.integer.list_column_count);
-        GridLayoutManager sglm =
-                new GridLayoutManager(this, columnCount);
-        mRecyclerView.setLayoutManager(sglm);
+        LinearLayoutManager llm =
+                new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(llm);
+
+        android.support.v7.widget.DividerItemDecoration dividerItemDecoration =
+                new DividerItemDecoration(mRecyclerView.getContext(), llm.getOrientation());
+        mRecyclerView.addItemDecoration(dividerItemDecoration);
     }
 
     @Override

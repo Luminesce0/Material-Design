@@ -1,5 +1,5 @@
 <resources>
-    <!-- detail -->
+    <!-- Detail Layout Dimensions-->
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
@@ -10,12 +10,12 @@
     <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
-    <!-- Card View Dimens -->
-    <dimen name="cv_text_margin">8dp</dimen>
-    <dimen name="cv_photo_margin">8dp</dimen>
+    <!-- List Item Dimensions -->
+    <dimen name="list_item_text_margin">8dp</dimen>
+    <dimen name="list_item_photo_margin">8dp</dimen>
 
-    <!-- List Dimensions -->
-    <dimen name="list_margin">8dp</dimen>
+    <!-- List Layout Dimensions -->
+    <dimen name="recycler_view_margin">16dp</dimen>
 
     <!-- App Bar -->
     <dimen name="app_bar_height_total_prominent">128dp</dimen>
