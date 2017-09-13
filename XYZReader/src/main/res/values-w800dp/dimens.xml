@@ -1,0 +1,7 @@
+<resources>
+    <!-- List Layout Dimensions -->
+    <dimen name="list_toolbar_side_margin">52dp</dimen> <!-- minus 64 - 12 -->
+
+    <!-- Detail Layout Dimensions -->
+    <dimen name="detail_card_max_width">704dp</dimen>
+</resources>

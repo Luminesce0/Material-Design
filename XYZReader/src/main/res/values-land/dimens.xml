@@ -1,4 +1,9 @@
 <resources>
+
+    <!-- Detail Layout Dimensions -->
+    <dimen name="detail_photo_height">224dp</dimen>
+    <dimen name="detail_inner_horiz_margin">112dp</dimen>
+
     <!-- App Bar Dimensions -->
     <dimen name="app_bar_height_total_prominent">92dp</dimen>
     <dimen name="app_bar_height_default">48dp</dimen>
